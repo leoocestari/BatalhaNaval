@@ -11,9 +11,6 @@ import java.util.ArrayList;
 public class Jogador {
     protected ArrayList<Jogada> jogadas = new ArrayList<>();
     protected Tabuleiro t = new Tabuleiro();
-    protected String nome = "jogador";
-
-    public String getNome() { return nome; }
 
     public Tabuleiro getTabuleiro() { return t; }
 
